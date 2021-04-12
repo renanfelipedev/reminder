@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', arial, sans-serif;
+}
+
+body {
+  background-color: #f3f3f3;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#timer {
+  background-color: #fff;
+  padding: 3rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border: 2px solid #ededed;
+}
+
+#timer p {
+  font-size: 180%;
+}
+
+#timer span {
+  font-size: 300%;
+}
